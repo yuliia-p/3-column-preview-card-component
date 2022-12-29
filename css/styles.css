@@ -21,11 +21,14 @@ p {
   line-height: 1.7rem;
 }
 
+.row {
+  margin-top: 4rem;
+}
+
 .orange-bg {
   background-color: hsl(31deg, 77%, 52%);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  margin-top: 4rem;
 }
 
 .cyan-bg {
@@ -61,4 +64,24 @@ button {
 
 .dark-cyan-button {
   color: hsl(179deg, 100%, 13%);
+}
+
+@media only screen and (min-width: 768px) {
+  .orange-bg {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+
+  .dark-cyan-bg {
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  button {
+    margin-top: 2rem;
+  }
 }
