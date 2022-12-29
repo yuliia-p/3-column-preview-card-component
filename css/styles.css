@@ -46,12 +46,16 @@ p {
 }
 
 button {
-  background-color: hsl(0deg, 0%, 95%);
+  background-color: rgba(242, 242, 242, 0.85);
   padding: 15px 25px;
   border: none;
   border-radius: 25px;
   font-size: 1rem;
   margin-top: 1.5rem;
+}
+
+button:hover {
+  background-color: white;
 }
 
 .orange-button {
